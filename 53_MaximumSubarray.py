@@ -7,4 +7,3 @@ def maxSubArray(nums):
     return max_sum
 
 print(maxSubArray([-1, -1, -1, -1]))
-print(huy([-1, -1, -1, -1]))
