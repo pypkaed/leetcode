@@ -19,7 +19,13 @@ class ListNode(object):
 #     return new_head.next
 
 def reverseList(head):
-    print()
+    prev = None
+    curr = head
+    while curr:
+        c_next = curr.next
+        curr.next = prev
+        prev, curr = curr, c_next
+    return prev
 
 
 print(reverseList(ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))))
