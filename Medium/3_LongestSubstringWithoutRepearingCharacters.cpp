@@ -36,12 +36,12 @@ public:
     }
 };
 
-int main() {
-    Solution* sol = new Solution();
-    std::cout << sol->lengthOfLongestSubstring("abcabcbb") << std::endl;
-    std::cout << sol->lengthOfLongestSubstring("bbbbb") << std::endl;
-    std::cout << sol->lengthOfLongestSubstring("pwwkew") << std::endl;
-    std::cout << sol->lengthOfLongestSubstring("dvdf") << std::endl;
-    std::cout << sol->lengthOfLongestSubstring("tmmzuxt") << std::endl;
-    std::cout << sol->lengthOfLongestSubstring("bbtablud") << std::endl;
-}
+//int main() {
+//    Solution* sol = new Solution();
+//    std::cout << sol->lengthOfLongestSubstring("abcabcbb") << std::endl;
+//    std::cout << sol->lengthOfLongestSubstring("bbbbb") << std::endl;
+//    std::cout << sol->lengthOfLongestSubstring("pwwkew") << std::endl;
+//    std::cout << sol->lengthOfLongestSubstring("dvdf") << std::endl;
+//    std::cout << sol->lengthOfLongestSubstring("tmmzuxt") << std::endl;
+//    std::cout << sol->lengthOfLongestSubstring("bbtablud") << std::endl;
+//}
